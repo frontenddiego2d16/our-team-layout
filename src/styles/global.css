@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme{
+  --color-light-gray: #F3F4F6;
+  --color-charcoal: #394150;
+  --color-blue-card: #263FA9;
+  --color-mint-card: #86E7D4;
+  --color-light-blue-card: #9DC4F8;
+  --color-lavender-card: #C1B6F8;
+  --color-pink-card: #EDACD2;
+  --color-peach-card: #F8D8B0;
+
+  --font-outfit: "Outfit";
+}
