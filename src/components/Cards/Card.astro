@@ -1,0 +1,20 @@
+---
+import gradient from "../../assets/resources/Gradient.svg?url";
+
+interface Props {
+  image: string;
+  name: string;
+  occupation: string;
+  background: string;
+}
+const { background, image, name, occupation } = Astro.props;
+---
+
+<figure class={`${background} relative flex justify-center`}>
+  <img src={image} alt="person-1" />
+  <div class="absolute z-10 bottom-7 left-5">
+    <p class="text-white font-semibold">{name}</p>
+    <span class="text-white font-light text-xs">{occupation}</span>
+  </div>
+  <img src={gradient} alt="gradient" class="w-full absolute bottom-0" />
+</figure>
